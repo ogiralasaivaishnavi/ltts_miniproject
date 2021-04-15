@@ -23,13 +23,13 @@ In a typical cycle,
 2. Illumination of the amber/yellow light denoting, if safe to do so, prepare to stop short of the intersection, and 
 3. Illumination of the red signal prohibits any traffic from proceeding. 
 ## Cost and Features
- ![lights](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/lights%20description.jpg)
+![lights](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/lights%20description.jpg)
 --  The cost of this system includes cost of controller and LED lights that are used for the trafic light intensity.
 ## Defining Our System
 coming to our system, it has 5 modes of operation. For a particular input variable given to the system , the particular green light on that particular road is ON putting all the red lights on remaining roads ON and Green lights OFF. 
 For input is equal to 'a', the automatic mode is ON where the traffic lights are contionously changed in the loop until some external input is given.
 ## SWOT ANALYSIS
-![SWOT-Sample](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/swot%20analysis.jpg)
+![SWOT-Sample](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/swot%20analysis.png)
 
 
 
