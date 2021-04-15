@@ -1,13 +1,16 @@
 # Design
 
 ## High Level Design 
----Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](https://user-images.githubusercontent.com/82207640/114266744-8158c000-9a15-11eb-8d57-9df20fbdc380.png)
-
-![HighLevelBehaviouralDiagram](https://user-images.githubusercontent.com/82207640/114261680-8dcf1f80-99f9-11eb-8456-8604fd7fe8fd.png)
+Structural and Behavioural Diagram
+(https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Design/high%20level%20diagram.gif)
+The picture indictaing the operation of traffic lights
+Logic Table:
+(https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Design/logic%20table.jpg)
 
 ## Low Level Design 
 
 ---Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](https://user-images.githubusercontent.com/82207640/114261760-03d38680-99fa-11eb-8b42-5d22b64f5667.png)
-![FeaturesBehaviouralDiagram](https://user-images.githubusercontent.com/82207640/114261796-48f7b880-99fa-11eb-9476-d9ec4f5021c8.png)
+![FeaturesLevelStructuralDiagram](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Design/low%20level%20diagram.png)
+state diagram :
+(https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Design/state%20diagram.png)
+
