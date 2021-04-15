@@ -3,8 +3,15 @@
 
 ![Banner](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/four_way_traffic_control.jpg)
 
-# Requirements
-## Introduction
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`Requirements`   | Documents detailing requirements and research
+`Design`         | Documents specifying design details
+`Implementation` | All code and documentation
+`Test_plan`      | Documents with test plans and procedures
+
+##Introduction
  Traffic light which is one of vital public facilities plays an important role to the road user, which is used to control traffic flows at the busy intersection.
  Traffic light system consists of two parts, first part is traffic light and the second part is controller unit. 
  The first four-way, three-color traffic light was created by police officer William Potts in Detroit, Michigan in 1920. Moyer, Sheldon (March 1947). In 1922, T.E. Hayes patented his "Combination traffic guide and traffic regulating signal" (Patent#1447659)                     
@@ -16,7 +23,7 @@ In a typical cycle,
 2. Illumination of the amber/yellow light denoting, if safe to do so, prepare to stop short of the intersection, and 
 3. Illumination of the red signal prohibits any traffic from proceeding. 
 ## Cost and Features
-![Description](Link to Pic)
+ The cost of this system includes cost of controller and LED lights that are used for the trafic light intensity.(https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/lights%20description.jpg)
 -- Content 
 ## Defining Our System
 coming to our system, it has 5 modes of operation. For a particular input variable given to the system , the particular green light on that particular road is ON putting all the red lights on remaining roads ON and Green lights OFF. 
@@ -48,14 +55,22 @@ For input is equal to 'a', the automatic mode is ON where the traffic lights are
 
 -> The problem can lead to wastage of human time. The system helps in fast removal of heavy traffic.
 
+
 # Detail requirements
 ## High Level Requirements:
-![image](https://user-images.githubusercontent.com/82207640/114269727-2bd8df00-9a26-11eb-8deb-9ff7d8f81f3c.png)
+|ID | Description | Status | 
+| ----- | ----- | ------- | ---------|
+HR01| variable value = 1| Green light on Road 1
+HR02| variable value = 2| Green light on Road 2
+HR03| variable value = 3| Green light on Road 3
+HR04| variable value = 4| Green light on Road 4
+HR05| variable value = 'a'| Automatic control enable
 
 
 
 
 ##  Low level Requirements:
-
-![image](https://user-images.githubusercontent.com/82207640/114269754-4317cc80-9a26-11eb-8bd5-5f2254851952.png)
+ ID | Description | Status | 
+| ----- | ----- | ---------|
+LR01| any random input 'b'| To disable automatic mode
 
