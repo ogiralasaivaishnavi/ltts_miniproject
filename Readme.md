@@ -1,6 +1,6 @@
 
 
-## Logo
+## Logo for 4-way traffic control
 ![Banner](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/four_way_traffic_control.jpg)
 
 ## Folder Structure
