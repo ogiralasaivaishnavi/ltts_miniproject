@@ -1,47 +1,61 @@
-# SDLC Activity Based Learning
-![Banner](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/banner.png)
+
+#four_way_traffic_control diagram
+
+![Banner](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/four_way_traffic_control.png)
+
+# Requirements
+## Introduction
+ Traffic light which is one of vital public facilities plays an important role to the road user, which is used to control traffic flows at the busy intersection.
+ Traffic light system consists of two parts, first part is traffic light and the second part is controller unit. 
+ The first four-way, three-color traffic light was created by police officer William Potts in Detroit, Michigan in 1920. Moyer, Sheldon (March 1947). In 1922, T.E. Hayes patented his "Combination traffic guide and traffic regulating signal" (Patent#1447659)                     
+
+## Research
+The traffic lights consist of a set of three coloured lights: red, yellow and green. 
+In a typical cycle, 
+1. Illumination of the green light allows traffic to proceed in the direction denoted.
+2. Illumination of the amber/yellow light denoting, if safe to do so, prepare to stop short of the intersection, and 
+3. Illumination of the red signal prohibits any traffic from proceeding. 
+## Cost and Features
+![Description](Link to Pic)
+-- Content 
+## Defining Our System
+coming to our system, it has 5 modes of operation. For a particular input variable given to the system , the particular green light on that particular road is ON putting all the red lights on remaining roads ON and Green lights OFF. 
+For input is equal to 'a', the automatic mode is ON where the traffic lights are contionously changed in the loop until some external input is given.
+## SWOT ANALYSIS
+![SWOT-Sample](https://user-images.githubusercontent.com/82207640/114269046-3a24fc00-9a22-11eb-94d8-631f5b2e5e37.png)
 
 
-Build | Code Quality | Unity | Git Inspector
-|---------|------------|-----------|----------------
-[![C/C++ CI](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml)|[![Static Check](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-cppcheck.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-cppcheck.yml) [![Valgrind-check](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-dynamic-code-quality.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-dynamic-code-quality.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/21c5cae1b5844158b9eb3d4c80125c89)](https://www.codacy.com/gh/arc-arnob/LnT_Mini_Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arc-arnob/LnT_Mini_Project&amp;utm_campaign=Badge_Grade) [![Coverage Badge](https://img.shields.io/badge/coverage-98.71%25-blue)]()  | [![Unity-Check](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-unity.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-unity.yml) | [![git inspector CI](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-gitinspector.yml)
+
+# 4W&#39;s and 1&#39;H
+
+## Who:
+
+-> Roads where heavy traffic is present. 
+
+## What:
+
+-> It becomes difficult to control the heavy traffic in 4-way cross roads.This control is efficient in controlling traffic.
+
+## When:
+
+-> The problem is long delay time and chance of more number of accidents.
+
+## Where:
+
+-> All heavy crowded roads in cities.
+
+## How:
+
+-> The problem can lead to wastage of human time. The system helps in fast removal of heavy traffic.
+
+# Detail requirements
+## High Level Requirements:
+![image](https://user-images.githubusercontent.com/82207640/114269727-2bd8df00-9a26-11eb-8deb-9ff7d8f81f3c.png)
 
 
-## Folder Structure
-Folder             | Description
--------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research
-`2_Design`         | Documents specifying design details
-`3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
 
-## Contributors List and Summary
 
-SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`256131` | Arnob Chowdhury  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08, F_09   | 14     | 7   |13  |13     
-   
+##  Low level Requirements:
 
-| Feature Id | Feature |
-| -----------|---------|
-|F_01| Option to load older saved data |
-|F_02| Save data to file if only new data is added |
-|F_03| Update data in list and file(if in file) |
-|F_04| Deleting record automatically updates Record file and Index File |
-|F_05| New records gets saved in file at program shut down |
-|F_06| Before program shut down all memory is freed and clean |
-|F_07| Used Binary File System for quick access to files |
-|F_08| Search of Data is possible from both List and file |
-|F_09| Dynamic memory allocation and deallocation implemented |
-
-## Challenges Faced and How Was It Overcome
-| No. | Challenge | Solution
-|-----|-----------|--------
-|1. | Code Crashed without any error message (Segmentation Fault) | GDB tool helped to pin point the Invalid Read 
-|2. | After program shut down, there was no way to recover data | Implemented File System |
-|3. | IOWITHOUTPOSITIONING Error | Check if fseek() != -1 between consecutive read and write calls
-|4. | Structure Padding causing write to uninitialized location(Still Reachable code error) | Won't Fix, need help
-|5. | Requirement gathering proved to be challenging, mainly ageing | Read multiple Research papers to find about history of management systems 
-|6. | gcov generating *.gcda and *.gcno files in different directory than object file | added few extra steps in make file under coverage, made a copy of .c file in current directory and ran coverage then deleted all the unnecessary files.
-
+![image](https://user-images.githubusercontent.com/82207640/114269754-4317cc80-9a26-11eb-8bd5-5f2254851952.png)
 
