@@ -8,10 +8,6 @@ The picture indictaing the operation of traffic lights
 ![behavioural](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Design/logic%20table.jpg)
 
 ## Low Level Design 
-
----Structural and Behavioural Diagram
-![structural and behavioural](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Design/low%20level%20diagram.png)
----State diagram :
-![state diagram](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Design/state%20diagram.png)
-
+Structural and Behavioural Diagram showing along with control unit
+![FeaturesLevelStructuralDiagram](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Design/low%20level%20diagram.png)
 
