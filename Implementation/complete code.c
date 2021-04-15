@@ -14,6 +14,7 @@ int main()
     while(1){
         if(val != m){
             m = val;
+			
             if(val == '1'){
                 printf("Road 1 green light is ON\n");
             }else if(val == '2'){
