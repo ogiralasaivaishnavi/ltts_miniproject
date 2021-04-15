@@ -1,6 +1,6 @@
 
 
-
+## Logo
 ![Banner](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/four_way_traffic_control.jpg)
 
 ## Folder Structure
@@ -11,10 +11,9 @@ Folder             | Description
 `Implementation` | All code and documentation
 `Test_plan`      | Documents with test plans and procedures
 
-##Introduction
- Traffic light which is one of vital public facilities plays an important role to the road user, which is used to control traffic flows at the busy intersection.
- Traffic light system consists of two parts, first part is traffic light and the second part is controller unit. 
- The first four-way, three-color traffic light was created by police officer William Potts in Detroit, Michigan in 1920. Moyer, Sheldon (March 1947). In 1922, T.E. Hayes patented his "Combination traffic guide and traffic regulating signal" (Patent#1447659)                     
+## Introduction
+Traffic light which is one of vital public facilities plays an important role to the road user, which is used to control traffic flows at the busy intersection.
+Traffic light system consists of two parts, first part is traffic light and the second part is controller unit. The first four-way, three-color traffic light was created by police officer William Potts in Detroit, Michigan in 1920. Moyer, Sheldon (March 1947). In 1922, T.E. Hayes patented his "Combination traffic guide and traffic regulating signal" (Patent#1447659)                     
 
 ## Research
 The traffic lights consist of a set of three coloured lights: red, yellow and green. 
@@ -24,11 +23,11 @@ In a typical cycle,
 3. Illumination of the red signal prohibits any traffic from proceeding. 
 ## Cost and Features
 ![lights](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/lights%20description.jpg)
---  The cost of this system includes cost of controller and LED lights that are used for the trafic light intensity.
+The cost of this system includes cost of controller and LED lights that are used for the trafic light intensity.
 ## Defining Our System
 coming to our system, it has 5 modes of operation. For a particular input variable given to the system , the particular green light on that particular road is ON putting all the red lights on remaining roads ON and Green lights OFF. 
 For input is equal to 'a', the automatic mode is ON where the traffic lights are contionously changed in the loop until some external input is given.
-## SWOT ANALYSIS
+## Swot Analysis
 ![SWOT-Sample](https://github.com/ogiralasaivaishnavi/ltts_miniproject/blob/master/Requirements/swot%20analysis.png)
 
 
@@ -59,7 +58,7 @@ For input is equal to 'a', the automatic mode is ON where the traffic lights are
 # Detail requirements
 ## High Level Requirements:
 |ID | Description | Status | 
-| ----- | ----- | ------- | ---------|
+| ----- | ----- | ---------|
 HR01| variable value = 1| Green light on Road 1
 HR02| variable value = 2| Green light on Road 2
 HR03| variable value = 3| Green light on Road 3
