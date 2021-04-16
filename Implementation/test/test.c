@@ -4,13 +4,13 @@ int main()
 
 {
     int i;
-    int val=1;
-    scanf("%d", &val);
-        if(val == 1){
+    char val='1';
+    scanf("%c", &val);
+        if(val == '1'){
                 printf("Road 1 green light is ON\n");
             }
         switch(val){
-            case 1:
+            case '1':
             printf("Road 2 red light ON\n");
             printf("Road 3 red light ON\n");
             printf("Road 4 red light ON\n");
