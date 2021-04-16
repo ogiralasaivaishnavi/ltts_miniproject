@@ -1,7 +1,12 @@
 PROJ_NAME = 4-way_traffic
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/complete_code.c \
+SRC =src/r1.c \
+src/r2.c\
+src/r3.c \
+src/r4.c \
+src/automatic.c \
+
 
 COV_SRC =  test.c
   
@@ -23,6 +28,8 @@ else
 endif
 .PHONY: run clean test doc all
 
+all:
+	gcc -I $(INC_H) $(SRC) complete_code.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 	
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
