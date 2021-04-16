@@ -1,4 +1,4 @@
-PROJ_NAME = ltts_miniproject
+PROJ_NAME = 4-way_traffic
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 SRC =src/r1.c.c \
