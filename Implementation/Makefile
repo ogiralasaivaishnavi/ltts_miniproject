@@ -1,8 +1,7 @@
 PROJ_NAME = ltts_miniproject
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/create_ll.c \
-src/r1.c.c \
+SRC =src/r1.c.c \
 src/r2.c.c \
 src/r3.c.c \
 src/r4.c.c \
