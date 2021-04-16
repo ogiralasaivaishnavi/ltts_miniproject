@@ -1,15 +1,15 @@
 PROJ_NAME = 4-way_traffic
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/r1.c.c \
-src/r2.c.c \
-src/r3.c.c \
-src/r4.c.c \
-src/automatic.c.c \
+SRC =src/r1.c \
+src/r2.c\
+src/r3.c \
+src/r4.c \
+src/automatic.c \
 
 
-COV_SRC = test.c
-
+COV_SRC =  test.c
+  
 TEST_SRC = test/test.c \
 unity/unity.c 
 INC_H = inc
