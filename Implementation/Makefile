@@ -1,7 +1,7 @@
 PROJ_NAME = 4-way_traffic
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/r1.c \
+SRC =src/complete_code.c \
 
 COV_SRC =  test.c
   
