@@ -29,7 +29,7 @@ endif
 .PHONY: run clean test doc all
 
 all:
-	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+	gcc -I $(INC_H) $(SRC) complete_code.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 	
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
@@ -51,9 +51,9 @@ coverage:
 
 
 cppcheck:
-	cppcheck --enable=all $(SRC) main.c
+	cppcheck --enable=all $(SRC) complete_code.c
 debug:
-	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
+	gcc -I $(INC_H) $(SRC) complete_code.c -g -o $(PROJ_NAME).$(EXEC)
 	gdb $(PROJ_NAME).$(EXEC)
 
 valgrind:
