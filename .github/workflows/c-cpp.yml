@@ -1,4 +1,4 @@
-name: BUILD STATTU
+name: BUILD STATUS
 
 on:
   push:
